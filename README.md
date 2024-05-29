@@ -1,13 +1,19 @@
-TestCase16 Dökümantasyonu
+TestCase16 Dökümantasyonu;
+
 Bu sınıf, kullanıcı kayıt işlemini, ürün ekleyip sepet işlemlerini ve sipariş verme süreçlerini otomatikleştiren bir Selenium testidir. Test, kullanıcı kaydını oluşturur, bir ürün ekler, sepete ekleme ve ödeme işlemlerini yapar ve sonunda kullanıcı hesabını siler.
 
-Kullanılan Sınıflar ve Yöntemler
+Kullanılan Sınıflar ve Yöntemler;
 
 homePage: Ana sayfa öğelerini temsil eden sınıf.
+
 signupPage: Kayıt sayfası öğelerini temsil eden sınıf.
+
 cartPage: Sepet ve ödeme işlemleriyle ilgili sayfa öğelerini temsil eden sınıf.
+
 ConfigReader: Konfigürasyon dosyasından veri okuma işlemi yapan yardımcı sınıf.
+
 Driver: WebDriver nesnesini yöneten yardımcı sınıf.
+
 ReusableMethods: Tekrar kullanılabilir yardımcı metodları içeren sınıf.
 
 Test İş Akışı
